@@ -1,3 +1,5 @@
 <?php
 
-uses(JeffersonGoncalves\Ccpa\Tests\TestCase::class)->in('Feature', 'Unit');
+use JeffersonGoncalves\Ccpa\Tests\TestCase;
+
+uses(TestCase::class)->in('Feature', 'Unit');
