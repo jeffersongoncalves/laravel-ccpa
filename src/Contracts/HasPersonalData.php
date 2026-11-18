@@ -3,8 +3,9 @@
 namespace JeffersonGoncalves\Ccpa\Contracts;
 
 use JeffersonGoncalves\Ccpa\Attributes\PersonalData;
+use JeffersonGoncalves\Privacy\Contracts\HasPersonalData as BaseHasPersonalData;
 
-interface HasPersonalData
+interface HasPersonalData extends BaseHasPersonalData
 {
     /**
      * @return list<PersonalData>
